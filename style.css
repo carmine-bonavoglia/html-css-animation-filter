@@ -100,12 +100,47 @@
     width: 400px;
 }
 
+.ex-9-img:hover{
+    animation: filtri_3 8s;
+}
+
+@keyframes filtri_3{
+    25%{
+        filter: grayscale(100%); border-radius: 10px; scale: 75%;
+    }
+    75% {
+        filter:sepia(100%); border-radius: 10px; scale: 25%;
+    }
+}
+
 .ex-10-icon {
+    font-size: 60px;
+    animation: ruota 2s infinite;
+}
+
+@keyframes ruota{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.ex-11-icon {
     font-size: 60px;
 }
 
 .ex-11-icon {
     font-size: 60px;
+    animation: ruota_2 4s infinite;
+}
+
+@keyframes ruota_2{
+    90%{
+        transform: rotate(270deg);
+    }
+
+    100%{
+        transform: rotate(0deg);
+    }
 }
 
 .ex-12-button, .ex-13-button {
