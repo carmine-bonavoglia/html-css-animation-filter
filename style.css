@@ -160,7 +160,7 @@
     animation: asse_x 4s infinite;
 }
 
-.ex-12-button:hover .ex-12-top-white {
+.ex-12-button:hover .ex-12-top-white{
     animation: move_x_top 2s linear;
 }
 
